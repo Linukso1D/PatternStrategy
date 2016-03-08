@@ -32,6 +32,7 @@ public class StrategyL
 	redhead.performQuack();
 	
 	System.out.println("***Magic***");
+	
 	mallar.setFlybehavior(new FlyWithMagic());
 	redhead.setFlybehavior(new FlyWithMagic());
 	mallar.setQuakbehavior(new Mute());
